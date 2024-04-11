@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02e6e954-4dc0-45bb-bb9a-93ade2159a1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notas.md" beforeDir="false" afterPath="$PROJECT_DIR$/notas.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/entities/CarEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entities/CarEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/entities/CarEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/entities/CarEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/components/AddCar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/components/AddCar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/components/Car.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/components/Car.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/http-commons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/http-commons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/pages/Cars.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/pages/Cars.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/pages/Reparations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/pages/Reparations.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/pages/Reports.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/pages/Reports.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/AddEditEmployee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/AddEditEmployee.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/AddEditExtraHours.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/AddEditExtraHours.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/AnualReport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/AnualReport.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/EmployeesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/EmployeesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/ExtraHoursList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/ExtraHoursList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/NotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/NotFound.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/PaycheckCalculate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/PaycheckCalculate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/PaycheckList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/PaycheckList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/Sidemenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/Sidemenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/http-common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/http-common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/services/employee.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/services/employee.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/services/extrahours.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/services/extrahours.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/services/paycheck.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/services/paycheck.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payroll-frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\lucas\Documents\Git\tingeso-pep-1\Backend\htmlReport" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2eEaN1g4jJnC1eBMXS6maG0lUOK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/Documents/Git/tingeso-pep-1/Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Autofix">
+    <configuration name="Autofix" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="DB_HOST" value="127.0.0.1" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.AutofixApplication" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Autofix" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="DB_HOST" value="127.0.0.1" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.AutofixApplication" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportControllerTest.getReport1_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ReportControllerTest" />
+      <option name="METHOD_NAME" value="getReport1_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportControllerTest.getReport2_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ReportControllerTest" />
+      <option name="METHOD_NAME" value="getReport2_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportControllerTest.getReport3_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ReportControllerTest" />
+      <option name="METHOD_NAME" value="getReport3_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportControllerTest.getReport4_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ReportControllerTest" />
+      <option name="METHOD_NAME" value="getReport4_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportServiceTest.whenGetReport1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.services" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.services.ReportServiceTest" />
+      <option name="METHOD_NAME" value="whenGetReport1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutofixApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.AutofixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutofixApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.AutofixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutofixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.AutofixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Autofix" />
+      <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.ReportControllerTest.getReport1_Success" />
+      <item itemvalue="JUnit.ReportControllerTest.getReport2_Success" />
+      <item itemvalue="JUnit.ReportControllerTest.getReport3_Success" />
+      <item itemvalue="JUnit.ReportControllerTest.getReport4_Success" />
+      <item itemvalue="JUnit.ReportServiceTest.whenGetReport1" />
+      <item itemvalue="Spring Boot.AutofixApplication" />
+      <item itemvalue="Spring Boot.AutofixApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ReportControllerTest.getReport3_Success" />
+        <item itemvalue="JUnit.ReportControllerTest.getReport4_Success" />
+        <item itemvalue="JUnit.ReportControllerTest.getReport2_Success" />
+        <item itemvalue="JUnit.ReportControllerTest.getReport1_Success" />
+        <item itemvalue="JUnit.ReportServiceTest.whenGetReport1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02e6e954-4dc0-45bb-bb9a-93ade2159a1f" name="Changes" comment="" />
+      <created>1711472147777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711472147777</updated>
+      <workItem from="1711472150641" duration="194000" />
+      <workItem from="1711476867073" duration="362000" />
+      <workItem from="1711477448537" duration="574000" />
+      <workItem from="1711478072008" duration="4063000" />
+      <workItem from="1711551941634" duration="957000" />
+      <workItem from="1711576663616" duration="740000" />
+      <workItem from="1711723042100" duration="8351000" />
+      <workItem from="1711733585736" duration="397000" />
+      <workItem from="1711760582678" duration="328000" />
+      <workItem from="1711763377998" duration="6978000" />
+      <workItem from="1711770598062" duration="235000" />
+      <workItem from="1711815041303" duration="2102000" />
+      <workItem from="1711854884898" duration="3569000" />
+      <workItem from="1711935672160" duration="5542000" />
+      <workItem from="1712008446810" duration="1783000" />
+      <workItem from="1712010568586" duration="2957000" />
+      <workItem from="1712025827503" duration="1487000" />
+      <workItem from="1712081915868" duration="1533000" />
+      <workItem from="1712086985451" duration="403000" />
+      <workItem from="1712088086685" duration="2229000" />
+      <workItem from="1712093261233" duration="920000" />
+      <workItem from="1712110897539" duration="693000" />
+      <workItem from="1712153262840" duration="3018000" />
+      <workItem from="1712164748294" duration="8829000" />
+      <workItem from="1712200984595" duration="891000" />
+      <workItem from="1712234806699" duration="739000" />
+      <workItem from="1712279883196" duration="8508000" />
+      <workItem from="1712334561721" duration="5442000" />
+      <workItem from="1712351966448" duration="1021000" />
+      <workItem from="1712359564879" duration="15109000" />
+      <workItem from="1712426116573" duration="2552000" />
+      <workItem from="1712442963727" duration="8991000" />
+      <workItem from="1712518281900" duration="11012000" />
+      <workItem from="1712619488359" duration="6095000" />
+      <workItem from="1712672936764" duration="2272000" />
+      <workItem from="1712691231723" duration="1999000" />
+      <workItem from="1712850385697" duration="1248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ReparationController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/demo/services/ReparationServiceTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Backend$Tests.ic" NAME="Tests Coverage Results" MODIFIED="1712672955107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Backend$com_example_demo_in_demo.ic" NAME="com.example.demo in demo Coverage Results" MODIFIED="1712372636777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+com\example\demo\repositories\ReparationTypeRepositoryTest.class
+com\example\demo\AutofixApplicationTest.class
+com\example\demo\controllers\CarControllerTest.class
+com\example\demo\repositories\ReparationRepositoryTest.class
+com\example\demo\controllers\ReportControllerTest.class
+com\example\demo\controllers\ReparationControllerTest.class
+com\example\demo\repositories\CarRepositoryTest.class
+com\example\demo\services\CarServiceTest.class
+com\example\demo\services\ReparationServiceTest.class
+com\example\demo\services\ReportServiceTest.class
