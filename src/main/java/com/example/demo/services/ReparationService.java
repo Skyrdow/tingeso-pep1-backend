@@ -28,6 +28,8 @@ public class ReparationService {
         return reparationRepository.findByPatent(patent);
     }
     public ReparationEntity saveReparation(ReparationEntity reparationEntity) throws Exception {
+        CarEntity car = carRepository.findByPatent(reparationEntity.getPatent());
+        if (car == null) throw new Exception("No car with patent " + reparationEntity.getPatent());
         ReparationEntity savedEntity = reparationRepository.save(reparationEntity);
         System.out.println(savedEntity);
         if (savedEntity.getReparationTypes().isEmpty()) throw new Exception("Reparation without type");

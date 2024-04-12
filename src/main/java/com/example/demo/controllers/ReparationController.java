@@ -22,8 +22,8 @@ public class ReparationController {
         List<ReparationEntity> newReparations = reparationService.getReparations();
         List<Map> response = new ArrayList<>();
         for (ReparationEntity reparation: newReparations) {
-            System.out.println(reparationService.getReparationTypes(reparation));
-            response.add(Map.of("patent", reparation.getPatent(),
+            response.add(Map.of(
+                    "patent", reparation.getPatent(),
                     "admissionDate", reparation.getAdmissionDate(),
                     "reparationTypes", reparationService.getReparationTypes(reparation).toString(),
                     "repairExitDate", reparation.getRepairExitDate(),

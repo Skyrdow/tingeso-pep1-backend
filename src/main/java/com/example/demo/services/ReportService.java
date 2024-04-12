@@ -36,13 +36,16 @@ public class ReportService {
                 List<ReparationEntity> reparations = reparationRepository.findByPatent(car.getPatent());
                 if (reparations.isEmpty()) continue;
                 Long price = getReparationPrices(reparations, car);
+                Float totalPrice = calculateReparationPrice(car);
+                Float surcharges =  getSurcharges(reparations, car, price);
+                Float discounts =  getDiscounts(reparations, car, price);
                 Map newMap = Map.of(
                     "car", car.getPatent(),
-                    "totalPrice", calculateReparationPrice(car),
-                    "basePrice", getReparationPrices(reparations, car),
-                    "surcharges", getSurcharges(reparations, car, price),
-                    "discounts", getDiscounts(reparations, car, price),
-                    "iva", pc.iva
+                    "totalPrice", totalPrice,
+                    "basePrice", price,
+                    "surcharges", surcharges,
+                    "discounts", discounts,
+                    "iva", pc.iva * (price + surcharges - discounts)
                 );
                 responseMaps.add(newMap);
             } catch (Exception e) { responseMaps.add(Map.of("Problem on car:", car.getPatent(),
@@ -79,8 +82,8 @@ public class ReportService {
         return carTypeCounts;
     }
 
-    public Map getReport3() {
-        Map<String, Long> times = new HashMap<>();
+    public List<Map> getReport3() {
+        List<Map> times = new ArrayList<>();
         List<String> brands = carService.getBrands();
         for (String brand: brands) {
             List<CarEntity> brandedCars = carService.getCarsByBrand(brand);
@@ -93,8 +96,12 @@ public class ReportService {
                     sizeAccumulator++;
                 }
             }
-            Long meanTime = timeAccumulator / sizeAccumulator;
-            times.put(brand, meanTime);
+            if (sizeAccumulator == 0) {
+                times.add(Map.of("brand", brand, "time", 0L));
+            } else {
+                Long meanTime = timeAccumulator / sizeAccumulator;
+                times.add(Map.of("brand", brand, "time", meanTime));
+            }
         }
         return times;
     }

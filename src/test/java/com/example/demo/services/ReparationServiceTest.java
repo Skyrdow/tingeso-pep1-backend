@@ -6,6 +6,7 @@ import com.example.demo.entities.ReparationTypeEntity;
 import com.example.demo.enums.CarType;
 import com.example.demo.enums.MotorType;
 import com.example.demo.enums.ReparationType;
+import com.example.demo.repositories.CarRepository;
 import com.example.demo.repositories.ReparationRepository;
 import com.example.demo.repositories.ReparationTypeRepository;
 import org.junit.jupiter.api.Test;
@@ -32,6 +33,8 @@ class ReparationServiceTest {
     ReparationEntity reparation = new ReparationEntity();
     @Mock
     ReparationRepository reparationRepository;
+    @Mock
+    CarRepository carRepository;
     @Mock
     ReparationTypeRepository reparationTypeRepository;
     @InjectMocks
@@ -61,6 +64,7 @@ class ReparationServiceTest {
 
         when(reparationRepository.save(reparation)).thenReturn(reparation);
         when(reparationTypeRepository.save(repType)).thenReturn(repType);
+        when(carRepository.findByPatent("ABC123")).thenReturn(new CarEntity());
 
         assertDoesNotThrow(() -> {
             ReparationEntity savedReparation = reparationService.saveReparation(reparation);
@@ -70,8 +74,6 @@ class ReparationServiceTest {
     @Test
     public void whenSaveReparationWithoutType_Fail() {
         reparation = new ReparationEntity(1L, "ABC123", new Date(), null, new Date(), new Date());
-
-        when(reparationRepository.save(reparation)).thenReturn(reparation);
 
         assertThrows(Exception.class, () -> {
             // Código que se espera lance ExpectedExceptionType.

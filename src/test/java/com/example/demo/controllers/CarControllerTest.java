@@ -4,6 +4,7 @@ import com.example.demo.entities.CarEntity;
 import com.example.demo.enums.CarType;
 import com.example.demo.enums.MotorType;
 import com.example.demo.services.CarService;
+import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -73,13 +74,14 @@ public class CarControllerTest {
             fail(e.getMessage());
         }
     }
+    @SneakyThrows
     @Test
     public void addBrandBonus_Success() {
         CarEntity car1 = new CarEntity("ABC123", "Kia", "Model S", CarType.Sedan, new Date(), MotorType.Diesel, 5, 1005000L, 1000L);
         given(carService.setBrandBonus("ABC123", 1000L)).willReturn(car1);
 
         try {
-            mockMvc.perform(post("/api/v1/cars/brandBonus/ABC123/1000")
+            mockMvc.perform(put("/api/v1/cars/brandBonus/ABC123/1000")
                             .contentType(MediaType.APPLICATION_JSON))
                     .andExpect(status().isOk())
                     .andExpect(jsonPath("$.patent", is("ABC123")))

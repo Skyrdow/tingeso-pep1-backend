@@ -179,10 +179,10 @@ public class ReportServiceTest {
         when(reparationService.getReparationTime(reparation1)).thenReturn(1000L);
         when(reparationService.getReparationTime(reparation2)).thenReturn(1000L);
         when(reparationService.getReparationTime(reparation3)).thenReturn(2000L);
-        Map report3 = reportService.getReport3();
+        List<Map> report3 = reportService.getReport3();
         System.out.println(report3);
-        assertThat(report3.get("Kia")).isEqualTo(1000L);
-        assertThat(report3.get("Volvo")).isEqualTo(1500L);
+        assertThat(report3.get(0).get("time")).isEqualTo(1000L);
+        assertThat(report3.get(1).get("time")).isEqualTo(1500L);
     }
     @Test
     public void whenGetReport4() {

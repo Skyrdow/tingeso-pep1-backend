@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static org.assertj.core.api.Assertions.fail;
 import static org.mockito.Mockito.when;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -87,6 +88,11 @@ public class CarServiceTest {
         CarEntity car1 = new CarEntity("ABC123", "Kia", "Modelo S", CarType.Sedan, new Date(), MotorType.Diesel, 5, 1000L, 0L);
         CarEntity car2 = new CarEntity("ABC123", "Kia", "Modelo S", CarType.Sedan, new Date(), MotorType.Diesel, 5, 1000L, 1000L);
         when(carRepository.findByPatent("ABC123")).thenReturn(car1);
-        assertThat(carService.setBrandBonus("ABC123", 1000L)).isEqualTo(car2);
+        when(carRepository.save(car1)).thenReturn(car1);
+        try {
+            assertThat(carService.setBrandBonus("ABC123", 1000L)).isEqualTo(car2);
+        } catch (Exception e) {
+            fail(e.getMessage());
+        }
     }
 }

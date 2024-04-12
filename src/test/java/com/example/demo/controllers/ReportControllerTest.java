@@ -69,28 +69,28 @@ public class ReportControllerTest {
             mockMvc.perform(get("/api/v1/report/2"))
                     .andExpect(status().isOk()).andDo(result -> System.out.println(result.getResponse().getContentAsString()))
                     .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-                   .andExpect(jsonPath("$.report", hasSize(ReparationType.values().length)))
-                   .andExpect(jsonPath("$.report[0].reparationType", is("Frenos")))
-                   .andExpect(jsonPath("$.report[0].carTypes[2].carType", is("SUV")))
-                   .andExpect(jsonPath("$.report[0].carTypes[2].totalPrice", is(1100000)));
+                   .andExpect(jsonPath("$", hasSize(ReparationType.values().length)))
+                   .andExpect(jsonPath("$[0].reparationType", is("Frenos")))
+                   .andExpect(jsonPath("$[0].carTypes[2].carType", is("SUV")))
+                   .andExpect(jsonPath("$[0].carTypes[2].totalPrice", is(1100000)));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
     @Test
     public void getReport3_Success() {
-        given(reportService.getReport3()).willReturn(Map.of(
-                "Kia", 666000000,
-                "Volvo", 816000000,
-                "Honda", 746000000
-    ));
+        given(reportService.getReport3()).willReturn(List.of(
+                Map.of("brand","Kia", "time", 666000000),
+                Map.of("brand","Honda", "time", 746000000),
+                Map.of("brand","Volvo", "time", 816000000)));
+
         try {
             mockMvc.perform(get("/api/v1/report/3"))
                     .andExpect(status().isOk()).andDo(result -> System.out.println(result.getResponse().getContentAsString()))
                     .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-                    .andExpect(jsonPath("$.Kia", is(666000000)))
-                    .andExpect(jsonPath("$.Volvo", is(816000000)))
-                    .andExpect(jsonPath("$.Honda", is(746000000)));
+                    .andExpect(jsonPath("$[0].time", is(666000000)))
+                    .andExpect(jsonPath("$[1].time", is(746000000)))
+                    .andExpect(jsonPath("$[2].time", is(816000000)));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

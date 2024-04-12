@@ -22,9 +22,10 @@ public class CarService {
     public List<String> getBrands() {
         return carRepository.findAll().stream().map(CarEntity::getBrand).distinct().toList();
     }
-    public CarEntity setBrandBonus(String patent, Long bonus) {
+    public CarEntity setBrandBonus(String patent, Long bonus) throws Exception {
         CarEntity car = carRepository.findByPatent(patent);
+        if (car == null) throw new Exception("Car with patent " + patent + "not found");
         car.setBrandBonus(bonus);
-        return car;
+        return carRepository.save(car);
     }
 }

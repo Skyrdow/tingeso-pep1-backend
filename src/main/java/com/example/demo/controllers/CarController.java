@@ -25,9 +25,15 @@ public class CarController {
         CarEntity newCarEntity = carService.saveCar(carEntity);
         return ResponseEntity.ok(newCarEntity);
     }
-    @PostMapping("/brandBonus/{patent}/{bonus}")
-    public ResponseEntity<CarEntity> addBrandBonus(@PathVariable String patent, @PathVariable Long bonus) {
-        CarEntity newCarEntity = carService.setBrandBonus(patent, bonus);
-        return ResponseEntity.ok(newCarEntity);
+    @PutMapping("/brandBonus/{patent}/{bonus}")
+    public ResponseEntity<?> addBrandBonus(@PathVariable String patent, @PathVariable Long bonus) {
+        CarEntity newCarEntity = null;
+        try {
+            newCarEntity = carService.setBrandBonus(patent, bonus);
+            System.out.println(newCarEntity);
+            return ResponseEntity.ok(newCarEntity);
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
     }
 }
