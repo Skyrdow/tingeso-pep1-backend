@@ -1,5 +1,5 @@
 FROM openjdk:17
-ARG JAR_FILE=target/autofix-backend.jar
-COPY ${JAR_FILE} autofix-backend.jar
+ARG JAR_FILE=target/demo-1.jar
+COPY ${JAR_FILE} demo-1.jar
 EXPOSE 8090
-ENTRYPOINT ["java", "-jar", "/autofix-backend.jar"]
+ENTRYPOINT ["java", "-jar", "/demo-1.jar"]

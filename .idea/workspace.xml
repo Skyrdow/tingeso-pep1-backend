@@ -4,68 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e6e954-4dc0-45bb-bb9a-93ade2159a1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/acd50b70-331c-4b08-b36e-1dfd0d6df865.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/acd50b70-331c-4b08-b36e-1dfd0d6df865.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/acd50b70-331c-4b08-b36e-1dfd0d6df865/storage_v2/_src_/schema/autofix.Bhx62Q.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/acd50b70-331c-4b08-b36e-1dfd0d6df865/storage_v2/_src_/schema/autofix.Bhx62Q.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notas.md" beforeDir="false" afterPath="$PROJECT_DIR$/notas.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ReparationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ReparationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/entities/CarEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entities/CarEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/ReparationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/ReparationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/ReportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/CarControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/CarControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ReportControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ReportControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/services/CarServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/services/CarServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/services/ReparationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/services/ReparationServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/services/ReportServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/services/ReportServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/entities/CarEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/entities/CarEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.eslintrc.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/components/AddCar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/components/AddCar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/components/Car.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/components/Car.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/http-commons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/http-commons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/pages/Cars.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/pages/Cars.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/pages/Reparations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/pages/Reparations.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/pages/Reports.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/pages/Reports.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/.eslintrc.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/AddEditEmployee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/AddEditEmployee.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/AddEditExtraHours.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/AddEditExtraHours.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/AnualReport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/AnualReport.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/EmployeesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/EmployeesList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/ExtraHoursList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/ExtraHoursList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/NotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/NotFound.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/PaycheckCalculate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/PaycheckCalculate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/PaycheckList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/PaycheckList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/components/Sidemenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/components/Sidemenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/http-common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/http-common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/services/employee.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/services/employee.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/services/extrahours.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/services/extrahours.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/src/services/paycheck.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/src/services/paycheck.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payroll-frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll-frontend/vite.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="02e6e954-4dc0-45bb-bb9a-93ade2159a1f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +41,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -128,7 +70,7 @@
     &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/Documents/Git/tingeso-pep-1/Backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/Documents/Git/tingeso-pep1-backend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -149,7 +91,7 @@
       <recent name="com.example.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="Application.Autofix">
     <configuration name="Autofix" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -264,6 +206,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="tingeso-pep1-backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="tingeso-pep1-backend" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutofixApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.AutofixApplication" />
@@ -279,7 +234,7 @@
       </method>
     </configuration>
     <configuration name="AutofixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="demo.main" />
+      <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.AutofixApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,6 +312,9 @@
       <workItem from="1712672936764" duration="2272000" />
       <workItem from="1712691231723" duration="1999000" />
       <workItem from="1712850385697" duration="16451000" />
+      <workItem from="1713052840972" duration="267000" />
+      <workItem from="1713054092061" duration="17000" />
+      <workItem from="1713139154257" duration="2489000" />
     </task>
     <servers />
   </component>
@@ -401,6 +359,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Backend$Tests.ic" NAME="Tests Coverage Results" MODIFIED="1712886768286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tingeso_pep1_backend$Autofix.ic" NAME="Autofix Coverage Results" MODIFIED="1713052859455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tingeso_pep1_backend$Tests.ic" NAME="Tests Coverage Results" MODIFIED="1713052894612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Backend$Autofix.ic" NAME="Autofix Coverage Results" MODIFIED="1712886209718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Backend$com_example_demo_in_demo.ic" NAME="com.example.demo in demo Coverage Results" MODIFIED="1712372636777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
