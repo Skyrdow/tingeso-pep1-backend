@@ -19,7 +19,9 @@ import java.util.Date;
 public class CarEntity {
     @Id
     @Column(unique = true, nullable = false)
+    @Pattern(regexp = "[A-Z0-9]{6}")
     private String patent;
+
 
     private String brand;
     private String model;
