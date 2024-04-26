@@ -19,9 +19,8 @@ public class DiscountByDay {
     public Integer getDiscountByDay(Date retrievalDate) {
         // Convertir Date a LocalDateTime
         LocalDateTime localRetrievalDate = retrievalDate.toInstant()
-                .atZone(ZoneId.systemDefault())
+                .atZone(ZoneId.of("America/Santiago"))
                 .toLocalDateTime();
-
         // Obtener el día de la semana y la hora
         int weekDay = localRetrievalDate.getDayOfWeek().getValue(); // Lunes = 1, Domingo = 7
         int hour = localRetrievalDate.getHour();
