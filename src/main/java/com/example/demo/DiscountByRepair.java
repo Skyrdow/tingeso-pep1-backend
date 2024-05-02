@@ -16,6 +16,7 @@ public class DiscountByRepair {
     }
 
     public Integer getDiscountByRepair(Integer repairCount) throws Exception {
+        repairCount = repairCount - 1;
         if (repairCount == 0) return 0;
         if (1 <= repairCount && repairCount <= 2)
             return range1;
